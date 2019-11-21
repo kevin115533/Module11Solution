@@ -1,0 +1,9 @@
+C:\Users\Kevin Tran\source\repos\Module11Solution\Module11Project\bin\Debug\Module11Project.exe.config
+C:\Users\Kevin Tran\source\repos\Module11Solution\Module11Project\bin\Debug\Module11Project.exe
+C:\Users\Kevin Tran\source\repos\Module11Solution\Module11Project\bin\Debug\Module11Project.pdb
+C:\Users\Kevin Tran\source\repos\Module11Solution\Module11Project\obj\Debug\Module11Project.csprojAssemblyReference.cache
+C:\Users\Kevin Tran\source\repos\Module11Solution\Module11Project\obj\Debug\Module11Project.frmMath.resources
+C:\Users\Kevin Tran\source\repos\Module11Solution\Module11Project\obj\Debug\Module11Project.Properties.Resources.resources
+C:\Users\Kevin Tran\source\repos\Module11Solution\Module11Project\obj\Debug\Module11Project.csproj.GenerateResource.cache
+C:\Users\Kevin Tran\source\repos\Module11Solution\Module11Project\obj\Debug\Module11Project.exe
+C:\Users\Kevin Tran\source\repos\Module11Solution\Module11Project\obj\Debug\Module11Project.pdb
