@@ -42,6 +42,8 @@ namespace Module11Project
             }
         }
 
+        
+
         private void btnByte_Click(object sender, EventArgs e)
         {
             byte leftOp = 0;
@@ -75,7 +77,7 @@ namespace Module11Project
                 {
                     lblMessage.Text = myClass.divide(leftOp, rightOp);
                 }
-                else if (rBtnDivision.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
+                else if (rBtnModulus.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
                 {
                     lblMessage.Text = myClass.modulus(leftOp, rightOp);
                 }
@@ -119,7 +121,7 @@ namespace Module11Project
                 {
                     lblMessage.Text = myClass.divide(leftOp, rightOp);
                 }
-                else if (rBtnDivision.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
+                else if (rBtnModulus.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
                 {
                     lblMessage.Text = myClass.modulus(leftOp, rightOp);
                 }
@@ -179,7 +181,11 @@ namespace Module11Project
             int iNum = 0;
             short sNum = 0;
             long lNum = 0;
-            if (int.TryParse(s, out iNum) || short.TryParse(s, out sNum) || byte.TryParse(s, out bNum) || long.TryParse(s, out lNum))
+            float fNum = 0.0f;
+            double doNum = 0.0;
+            decimal deNum = 0.0m;
+            if (int.TryParse(s, out iNum) || short.TryParse(s, out sNum) || byte.TryParse(s, out bNum) || long.TryParse(s, out lNum) || float.TryParse(s, out fNum) || 
+                double.TryParse(s, out doNum) || decimal.TryParse(s, out deNum))
             {
                 return true;
             }
@@ -226,7 +232,7 @@ namespace Module11Project
                 {
                     lblMessage.Text = myClass.divide(leftOp, rightOp);
                 }
-                else if (rBtnDivision.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
+                else if (rBtnModulus.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
                 {
                     lblMessage.Text = myClass.modulus(leftOp, rightOp);
                 }
@@ -269,7 +275,7 @@ namespace Module11Project
                 {
                     lblMessage.Text = myClass.divide(leftOp, rightOp);
                 }
-                else if (rBtnDivision.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
+                else if (rBtnModulus.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
                 {
                     lblMessage.Text = myClass.modulus(leftOp, rightOp);
                 }
@@ -312,7 +318,7 @@ namespace Module11Project
                 {
                     lblMessage.Text = myClass.divide(leftOp, rightOp);
                 }
-                else if (rBtnDivision.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
+                else if (rBtnModulus.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
                 {
                     lblMessage.Text = myClass.modulus(leftOp, rightOp);
                 }
@@ -321,12 +327,12 @@ namespace Module11Project
 
         private void btnDouble_Click(object sender, EventArgs e)
         {
-            double leftOp = 0.0;
-            double rightOp = 0.0;
+            double leftOp = 0.0d;
+            double rightOp = 0.0d;
             try
             {
-                leftOp = short.Parse(txtLeftOp.Text);
-                rightOp = short.Parse(txtRightOp.Text);
+                leftOp = double.Parse(txtLeftOp.Text);
+                rightOp = double.Parse(txtRightOp.Text);
             }
             catch (OverflowException)
             {
@@ -355,7 +361,7 @@ namespace Module11Project
                 {
                     lblMessage.Text = myClass.divide(leftOp, rightOp);
                 }
-                else if (rBtnDivision.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
+                else if (rBtnModulus.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
                 {
                     lblMessage.Text = myClass.modulus(leftOp, rightOp);
                 }
@@ -398,7 +404,7 @@ namespace Module11Project
                 {
                     lblMessage.Text = myClass.divide(leftOp, rightOp);
                 }
-                else if (rBtnDivision.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
+                else if (rBtnModulus.Checked == true && isNegative(txtRightOp) && isZero(txtRightOp))
                 {
                     lblMessage.Text = myClass.modulus(leftOp, rightOp);
                 }
